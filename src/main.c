@@ -1,5 +1,6 @@
-#include "utils.h"
 #include <stdio.h>
+#include "utils.h"
+#include "servercon.h"
 #define DEFAULT_PORT 8000
 
 int main(int argc, char** argv) {
@@ -7,5 +8,5 @@ int main(int argc, char** argv) {
     if (argc >= 2) {
         lport = str_to_ul(argv[1]);
     }
-    printf("%lud", lport);
+    servercon(lport);
 }

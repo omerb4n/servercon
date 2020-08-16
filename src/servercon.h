@@ -1,0 +1,1 @@
+int servercon(unsigned int lport);
