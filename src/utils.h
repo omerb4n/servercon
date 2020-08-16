@@ -1,0 +1,1 @@
+unsigned long int str_to_ul(char* str);
