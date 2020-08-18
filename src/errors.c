@@ -9,7 +9,8 @@
 static const char* ERRORS_MESSAGES[] = 
 {
     "Unknown error",
-    "Invalid input"
+    "Invalid input",
+    "Socket error"
 };
 
 static const char* const error_str(Error err) {
